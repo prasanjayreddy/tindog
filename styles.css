@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* styling for start section */
+#start{
+    background-color: rgb(255, 0, 85);
+    color: white;
+}
+#start .container-fluid{
+    padding: 3% 15% 0;
+}
+nav.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 18px;
+}
+span.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+}
+a.nav-link{
+    opacity: 0.8;
+    color: white;
+    font-size: 1.2rem;
+}
+a.nav-link:hover{
+    opacity: 1;
+    color: white;
+}
+#start h1{
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+#start .btn{
+    position: relative;
+    z-index: 1;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+#start img{
+    width: 60%;
+    transform: rotate(30deg);
+}
+.material-icons{
+    color: white;
+}
+
+/* styling for second section */
+
+#two .container-fluid{
+    padding: 6% 12%;
+}
+#two .fas{
+    font-size: 4rem;
+    color: #ef8172;
+    text-align: center;
+    line-height: 1.5;
+    width: 100%;
+}
+#two .fas:hover{
+    color: #ff4c68;
+}
+h2{
+    font-size: 1.5rem;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+#two p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    color: #8f8f8f;
+    text-align: center;
+}
+
+/* styling for section three{3} */
+
+#three{
+    background-color: rgb(255, 0, 85);
+}
+.carousel-item{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 4% 15%;
+}
+.carousel-item img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    justify-items: center;
+    margin-top: 3%;
+}
+.carousel-item i{
+    font-size: 1.5rem;
+    opacity: 0.8;
+    color: white;
+}
+.container #companies{
+    margin-top: 4rem;
+    width: 80%;
+}
+.container{ padding-bottom: 3rem;}
+
+/* styling for section four{4} */
+
+#four p{
+    text-align: center;
+    font-family: 'Montserrat' , sans-serif;
+}
+#four .container-fluid{
+    padding: 0 16%;
+}
+#p1{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 4%;
+    letter-spacing: -3px;
+}
+#p2{
+    font-size: 1rem;
+    color: gray;
+    padding-bottom: 4%;
+}
+.card{
+    width: auto;
+    display: inline;
+}
+.card-header{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.card p{
+    color: gray;
+}
+.card-title{
+    color: black;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Montserrat' , sans-serif;
+}
+.card a{
+    width: 100%;
+    font-weight: bold;
+}
+.card a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* footer content */
+
+.five{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(255, 0, 85);
+    padding: 3% 12% 6%;
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+}
+.five p{
+    font-size: 4rem;
+}
+
+footer{
+    text-align: center;
+    margin: 4% 0;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+footer a{
+    color: black;
+}
+footer .fa-copyright{
+    letter-spacing: 0rem;
+    padding: 2% 0 10%;
+    font-size: 1rem;
+    color: gray;
+}
+
+.fa-instagram:hover{color: rgb(255, 0, 179);}
+.fa-twitter:hover{color: rgb(0, 140, 255);}
+.fa-linkedin:hover{color: rgb(76, 0, 255);}
+.fa-pinterest-square:hover{color: rgb(255, 0, 0);}
+.fa-copyright span:hover{color: rgb(0, 140, 255);}
